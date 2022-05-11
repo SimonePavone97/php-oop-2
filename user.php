@@ -18,8 +18,9 @@ class User{
     }
     
     public function setSconto( $nome ){
-       if($nome = "Simone") {
+       if($nome == "Simone") {
            $this->sconto = 20;
+           
        }
        else {
             $this->sconto = 0;
@@ -31,6 +32,12 @@ class User{
     public function getSconto( ){
         return $this -> sconto;
     }
+
+
+
+
+
+
 }
 
 

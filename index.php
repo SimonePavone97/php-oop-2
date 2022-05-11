@@ -22,7 +22,7 @@ echo "<p>" .  $articolo1 -> cucce  . "</p>";
 include __DIR__ . '/user.php';
 
 
-$Utente1 = new User ( "Simone", "Pavone", "simone@gmail.com", 2021);
+$Utente1 = new User ( "Andrea", "Pavone", "simone@gmail.com", 2021);
 
 echo "<p>" .  $Utente1 -> nome  . "</p>";
 echo "<p>" .  $Utente1 -> cognome  . "</p>";
