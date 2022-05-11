@@ -6,6 +6,7 @@ class User{
     public $cognome;
     public $email;
     public $pagamento;
+    public $totale;
     public $sconto; 
 
 
@@ -17,9 +18,14 @@ class User{
     }
     
     public function setSconto( $nome ){
-       if($nome = Simone) {
+       if($nome = "Simone") {
            $this->sconto = 20;
        }
+       else {
+            $this->sconto = 0;
+       }
+           
+       
     }
     
     public function getSconto( ){
